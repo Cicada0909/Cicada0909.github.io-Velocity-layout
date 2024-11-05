@@ -81,8 +81,9 @@ li {
 .intro-heading {
     font-size: 60px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     color: #fff;
+    letter-spacing: 4px;
 }
 
 .intro-btns {
@@ -101,11 +102,14 @@ li {
     padding: 10px 30px;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 
 .btn:hover {
     background-color: var(--text-accent);
     border-color: var(--text-accent);
+    transform: scale(1.1);
 }
 
 .information-container {
@@ -134,6 +138,11 @@ li {
     gap: 20px;
     padding: 36px 16px 16px 23px;
     width: 306px;
+    transition: 0.3s;
+}
+
+.information-item:hover {
+    transform: scale(1.1);
 }
 
 .information-decription {
@@ -198,6 +207,11 @@ li {
     gap: 20px;
     padding: 15px;
     width: 460px;
+    transition: 0.3s;
+}
+
+.services-item:hover {
+    transform: scale(1.06);
 }
 
 .services-decription {
@@ -244,5 +258,9 @@ li {
     cursor: pointer;
     border: 1px solid #fff;
     border-radius: 4px;
-    
+    transition: 0.3s;
+}
+
+.services-btn:hover {
+    transform: scale(1.1);
 }
