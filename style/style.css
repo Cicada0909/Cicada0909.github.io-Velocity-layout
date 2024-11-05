@@ -166,6 +166,11 @@ li {
 .information-decription {
     color: #6A859C;
     font-size: 14px;
+    line-height: 25px;
+}
+
+.services-wrapper {
+    background-color: var(--bg-darl);
 }
 
 .services-container {
@@ -189,11 +194,10 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #DCEBF7;
     border-radius: 5px;
     gap: 20px;
-    padding: 36px 16px 16px 23px;
-    width: 306px;
+    padding: 15px;
+    width: 460px;
 }
 
 .services-decription {
@@ -202,7 +206,7 @@ li {
 
 .services-about {
     font-size: 30px;
-    color: var(--text-main);
+    color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 5px;
@@ -210,7 +214,7 @@ li {
 
 .services-text {
     font-size: 17px;
-    color: #8E8E9C;
+    color: #E8E8E8;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -218,12 +222,27 @@ li {
 .services-title {
     font-size: 20px;
     text-transform: uppercase;
-    color: var(--text-main);
+    color: #FFFFFF;
     font-weight: 400;
     letter-spacing: 7px;
 }
 
 .services-decription {
-    color: #6A859C;
+    color: #FFFFFF;
     font-size: 14px;
+    max-width: 399px;
+    line-height: 25px;
+}
+
+.services-btn {
+    all: unset;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding:  11px 31px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    
 }
