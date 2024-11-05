@@ -263,4 +263,6 @@ li {
 
 .services-btn:hover {
     transform: scale(1.1);
+    background-color: var(--text-accent);
+    border-color: var(--text-accent);
 }
